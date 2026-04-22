@@ -30,10 +30,8 @@ Proyecto-DataOffice/
 │       └── suspected_duplicates.csv
 │
 ├── documentacion/
-│   ├── estrategia.md
-│   ├── procesos_bpm.md
-│   ├── arquitectura_datos.md
-│   └── gobierno_datos.md
+│   ├── Entrega_1 (Problema, estrategia, modelado inicial de procesos y boceto de arquitectura)
+│   ├── Entrega_2 (Primer borrador del gobierno de datos: definición de roles, reglas y estándares)
 │
 ├── img/
 │   └── diagrama_bpm.png
