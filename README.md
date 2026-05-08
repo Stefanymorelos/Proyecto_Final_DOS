@@ -88,20 +88,6 @@ Los rechazos encontrados fueron:
 - `cantidad_solicitada_not_nullable`: 59
 - `fecha_de_autorizacion_fecha_futura`: 1
 
-## Instalación
-Desde la raíz del proyecto:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Ejecución
-Para correr el pipeline completo:
-
-```bash
-python main.py
-```
-
 ## Análisis exploratorio
 El notebook `notebooks/eda_medicamentos.ipynb` contiene un análisis exploratorio inicial del dataset limpio, incluyendo:
 - evolución temporal de solicitudes
