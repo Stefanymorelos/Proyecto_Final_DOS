@@ -1,3 +1,4 @@
 error_reason,count
 cantidad_solicitada_not_nullable,59
+codigo_diagnostico_cie10_codigo_cie10_muy_corto,2
 fecha_de_autorizacion_fecha_futura,1

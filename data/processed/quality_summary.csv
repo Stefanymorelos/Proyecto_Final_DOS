@@ -1,11 +1,14 @@
 metrica,valor
 filas_originales,10017.0
 filas_estandarizadas,10017.0
-filas_validas,9957.0
-filas_rechazadas,60.0
-porcentaje_rechazo,0.6
+filas_validas,9955.0
+filas_rechazadas,62.0
+porcentaje_rechazo,0.62
 duplicados_sospechosos,958.0
 nulos_fecha_antes,0.0
 nulos_fecha_despues,0.0
 nulos_cantidad_antes,59.0
 nulos_cantidad_despues,0.0
+registros_urgencia_alta,954.0
+registros_urgencia_media,3425.0
+registros_urgencia_baja,5576.0
