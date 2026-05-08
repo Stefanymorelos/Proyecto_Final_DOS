@@ -1,5 +1,5 @@
 from pathlib import Path
-from src.proyecto_final_medicamentos import run_pipeline
+from src.pipeline_medicamentos import run_pipeline
 
 BASE_DIR = Path(__file__).resolve().parent
 RAW_DIR = BASE_DIR / "data" / "raw"
