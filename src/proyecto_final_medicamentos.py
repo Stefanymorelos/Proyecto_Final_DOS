@@ -109,10 +109,7 @@ def parsear_cantidad(x) -> float:
 
 
 def parsear_fecha(serie: pd.Series) -> pd.Series:
-    """
-    Intenta parsear fechas con el formato del dataset de INVIMA.
-    Si falla, intenta parseo genérico como fallback.
-    """
+   
     resultado = pd.to_datetime(serie, format="%Y %b %d %I:%M:%S %p", errors="coerce")
     # Fallback para filas que no matchearon el formato principal
     mask_nat = resultado.isna()
