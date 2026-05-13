@@ -303,12 +303,13 @@ def validar_y_separar(
 # =============================================================================
 
 def resumen_calidad(
+
     df_raw: pd.DataFrame,
     df_std: pd.DataFrame,
     df_valid: pd.DataFrame,
     df_rejected: pd.DataFrame,
 ) -> pd.DataFrame:
-    """Genera un resumen de métricas de calidad antes y después del pipeline."""
+    """Genera métricas de calidad antes y después del proceso de validación para evaluar el impacto del pipeline."""
     pct_rechazo = (
         round(len(df_rejected) / len(df_std) * 100, 2) if len(df_std) > 0 else 0
     )
@@ -368,7 +369,14 @@ def resumen_duplicados(df_std: pd.DataFrame) -> pd.DataFrame:
 
 
 # =============================================================================
-# 6. PIPELINE PRINCIPAL
+# PIPELINE DE CALIDAD DE DATOS
+# =============================================================================
+# Flujo:
+# 1. Carga dataset raw
+# 2. Limpieza y estandarización
+# 3. Validación con Pandera
+# 4. Separación de registros inválidos
+# 5. Generación de reportes de calidad
 # =============================================================================
 
 def run_pipeline(
