@@ -25,10 +25,11 @@ Proyecto-DataOffice/
 │       ├── revision_ambiguos.csv     ← Casos ambiguos conservados
 │       └── reporte_duplicados.csv    ← Trazabilidad de decisiones
 ├── documentacion/
-│   ├── Entrega_1.pdf                 ← Problema, estrategia y BPM
-│   ├── Entrega_2.md                  ← Gobierno de datos
-│   ├── tratamiento_duplicados.md     ← Criterios de duplicados
-│   └── Presentacion.pptx             ← Presentación final del proyecto
+│   ├── Entrega_1.pdf                                   ← Problema, estrategia y BPM
+│   ├── Entrega_2.md                                    ← Gobierno de datos
+│   ├── tratamiento_duplicados.md                       ← Criterios de duplicados
+│   ├── Presentacion.pptx                               ← Presentación final del proyecto
+│   └── decisiones basadas en dashboard medicamentos.md ← Análisis y decisiones basadas en el dashboard
 ├── img/
 │   └── diagrama_bpm.png
 ├── notebooks/
