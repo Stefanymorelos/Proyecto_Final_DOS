@@ -13,7 +13,7 @@ Solución de analítica de datos sobre el dataset **Medicamentos Vitales No Disp
 ## Estructura del proyecto
 
 ```text
-Proyecto-DataOffice/
+Proyecto-DataOffice/ 
 ├── data/
 │   ├── raw/                          ← CSV original INVIMA
 │   └── processed/                    ← Outputs del pipeline
@@ -27,7 +27,8 @@ Proyecto-DataOffice/
 ├── documentacion/
 │   ├── Entrega_1.pdf                 ← Problema, estrategia y BPM
 │   ├── Entrega_2.md                  ← Gobierno de datos
-│   └── tratamiento_duplicados.md     ← Criterios de duplicados
+│   ├── tratamiento_duplicados.md     ← Criterios de duplicados
+│   └── Presentacion.pptx             ← Presentación final del proyecto
 ├── img/
 │   └── diagrama_bpm.png
 ├── notebooks/
